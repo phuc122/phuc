@@ -1,0 +1,131 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.main_top{
+    display: flex;
+    height: 500px;
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.main{
+    display: grid;
+    grid-template-columns: 40fr 60fr;
+    gap:0px;
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://media.istockphoto.com/id/1080016732/vector/login-template-hud-ui-hi-tech-design-concept-background.jpg?s=170667a&w=0&k=20&c=YdRko9qwpnmaooStKuw1GIv4N3JaB9np_FHwNBcUHyA=);
+    width: 100%;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    background-image: url(https://img.freepik.com/free-vector/polygonal-wireframe-image-human-hand-touch-electronic-display-abstract-vector-illustration_1284-30756.jpg);
+}
+.right{
+background-color: rgb(255,0 , 0 ,0);
+transition: opacity 0.2s ease;
+}
+.top{
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+    border: none;
+}
+input{
+    margin-top: 20px;
+    width: 80%;
+    padding:  20px;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+.center button{
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 10%;
+    border-radius: 20px;
+    background-color: rgba(255, 0, 0, 0.6);
+    color: rgb(255, 255, 255);
+    border: none;
+    width: 87%;
+    
+}
+.quenmatkhau a{
+    color: aliceblue;
+    margin-left: 40%;
+    text-decoration: none
+}
+.quenmatkhau{
+    padding-top: 20px;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+.bottom{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.bottom button{
+    cursor:pointer;
+    margin-left: 10px;
+    padding: 10px 20px;
+    margin-left: 11%;
+    border-radius: 20px;
+}
+.bottom button{
+    text-decoration: none;
+    background-color: 0;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+.bottom :nth-child(1){
+    background-color: rgba(0, 0, 255, 0.5);
+}
+.bottom :nth-child(2){
+    background-color: rgba(255, 0, 43, 0.473);
+}
+.bottom :nth-child(3){
+    background-color: rgba(0, 217, 255, 0.527);
+}
+.bottom_cover{
+    padding: 30px;
+    display: flex;
+    margin-left: 100px;
+    transition: opacity 0.3s ease;
+}
+.bottom_cover h4{
+    color: aliceblue;
+}
+.bottom_cover a{
+    color: #cf4242;
+}
+.right button:hover{
+    opacity: 0.8;
+}
+.bottom_cover a:hover{
+    opacity: 0.8;
+}
+.quenmatkhau a:hover{
+    opacity: 0.8;
+}
+.incon{
+ position: relative;
+}
+.incon i {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 20px;
+}
